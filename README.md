@@ -1,6 +1,6 @@
 # Front-End Web Development 🚀
 
-Este repositório reúne projetos, experimentos e conceitos fundamentais desenvolvidos com **HTML5**, **CSS3** e **JavaScript (ES6+)**. 
+Este repositório reúne projetos, experimentos e conceitos fundamentais desenvolvidos com **HTML5**, **CSS3** e **JavaScript**. 
 
 O objetivo principal é documentar minha evolução prática na construção de interfaces web, desde estruturas semânticas até interatividade e componentes responsivos.
 
