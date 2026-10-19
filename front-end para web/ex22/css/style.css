@@ -69,6 +69,23 @@ section > p{
     text-align: justify;
     line-height: 32px;
 }
+
+figure{
+    background-color: rgb(83, 148, 83);
+    padding: 10px;
+    display: inline-block;
+}
+
+aside{
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(44, 129, 44);
+    border-radius: 10px;
+}
+aside > h3{
+    text-align: center;
+}
 img{
     display: block;
     margin: auto;
