@@ -6,6 +6,10 @@
             font-style: normal;
         }
 
+:root{
+    --fonte_android: 'iandroid'
+}        
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -13,12 +17,11 @@ body{
     background-color: #c5ebd6;
 }
 
-
 header{
     color: whitesmoke;
     margin: 0px;
     padding: 10px;
-    background-image: linear-gradient(to bottom, rgb(20, 223, 97), rgb(20, 146, 69), rgba(1, 29, 9, 0.801) );
+    background-image: linear-gradient(to bottom, rgb(20, 223, 97), rgb(20, 146, 69), rgba(2, 43, 13, 0.959) );
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.603);
 }
 
@@ -57,12 +60,12 @@ main{
     border-bottom-left-radius: 10px;
 }
 section > h1{
-    font-family: "iandroid";
+    font-family: var(--fonte_android);
     color: rgb(22, 99, 22);
     font-size: 30px;
 }
 section > h2{
-    font-family: "iandroid";
+    font-family: var(--fonte_android);
     color: rgb(22, 99, 22);
     background-image: linear-gradient(to right, rgba(74, 209, 135, 0.850), rgba(74, 209, 135, 0.480), rgba(74, 209, 135, 0.380), rgba(74, 209, 135, 0.180), rgba(74, 209, 135, 0) );
 }
