@@ -10,11 +10,17 @@
     --fonte_android: 'iandroid'
 }        
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     background-color: #c5ebd6;
+}
+
+
+a.externo::after{
+    content: '\1F517';
 }
 
 header{
@@ -39,6 +45,7 @@ header > p{
     padding-right: 10px;
 }
 
+
 nav > a:hover{
     background-color: rgba(58, 219, 106, 0.616);
     transition-duration: 230ms;
@@ -54,6 +61,14 @@ nav > a{
 nav{
     margin-top: 35px;
 }
+
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
 
 main{
     margin: auto;
@@ -72,6 +87,11 @@ main strong{
     color: rgb(91, 155, 108);
     font-weight: bold;
 }
+main > aside > p > strong{
+    color: rgb(147, 238, 182);
+    font-weight: bold;
+}
+
 
 section a{
     color: rgba(3, 58, 18, 0.959);
@@ -96,11 +116,7 @@ section > h2{
     background-image: linear-gradient(to right, rgba(74, 209, 135, 0.850), rgba(74, 209, 135, 0.480), transparent);
     text-indent: 8px;
 }
-section > p{
-    text-indent: 30px;
-    text-align: justify;
-    line-height: 30px;
-}
+
 
 figure{
     background-color: rgb(83, 148, 83);
@@ -108,30 +124,53 @@ figure{
     display: inline-block;
 }
 
+
 aside{
     padding: 10px;
     min-width: 300px;
     max-width: 750px;
     margin: auto;
-    background-color: rgb(44, 129, 44);
+    background-color: rgb(38, 182, 103);
     border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.288);
 }
-aside > h3{
-    text-align: center;
+aside > h2{
+    background-color: rgb(5, 94, 45);
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px;
 }
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+
 img{
     display: block;
     margin: auto;
 }
 
+
 footer{
-    background-color: rgb(16, 95, 16);
+    background-color: rgb(5, 94, 45);
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+}
+footer > p{
     margin: 0;
     text-align: center;
-    padding-bottom: 1px;
 }
+footer > p >  a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: rgb(121, 224, 121);
 
-footer > p{
-    margin: 10px;
-    padding: 3px;
 }
