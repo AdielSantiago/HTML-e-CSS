@@ -6,6 +6,7 @@
             font-style: normal;
         }
 
+
 :root{
     --fonte_android: 'iandroid'
 }        
@@ -22,6 +23,7 @@ body{
 a.externo::after{
     content: '\1F517';
 }
+
 
 header{
     color: whitesmoke;
