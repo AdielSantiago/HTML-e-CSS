@@ -118,10 +118,19 @@ section > h2{
 }
 
 
-figure{
-    background-color: rgb(83, 148, 83);
-    padding: 10px;
-    display: inline-block;
+figure.video{
+    background-color: rgb(5, 94, 45);
+    margin: 0px -20px 30px -20px ;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+figure.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 
