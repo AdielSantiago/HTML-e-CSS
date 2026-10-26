@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho com a cor original do slide (#4333) */
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    line-height: 26px;
+}
+
+
+/* Menu Lateral com Float e o fundo cinza claro original (#f1f1f1) */
+nav {
+    float: left;
+    width: 25%;
+    height: 350px;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066cc;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal ao lado do menu */
+main {
+    margin-left: 25%; 
+    height: 350px;
+    padding: 28px;
+    background-color: #ffffff;
+}
+
+main h2 {
+    margin-bottom: 15px;
+}
+
+/* Rodapé com a mesma cor do cabeçalho (#4333) */
+footer {
+    clear: both; 
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
