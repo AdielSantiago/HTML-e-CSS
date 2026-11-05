@@ -53,9 +53,14 @@ section{
     font-family: var(--fonte3);
     font-size: 3.2vw;
 }
+section > p{
+    margin-bottom: 1em;
+}
 section.normal{
     background-color: rgb(255, 255, 255);
     color: black;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 section.normal > p{
     padding: 7px;
@@ -66,7 +71,8 @@ section.imagem{
 }
 section.imagem > p{
     display: inline-block;
-    padding: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
     background-color: rgba(0, 0, 0, 0.151);
 }
 
